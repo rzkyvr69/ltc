@@ -164,7 +164,7 @@ try:
             )
             message = posts.messages[0].message
             print(message)
-            sys.exit()
+            ()
         else:
             try:
                 url = posts.messages[0].reply_markup.rows[0].buttons[0].url
