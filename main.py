@@ -148,7 +148,7 @@ try:
             != -1
         ):
             print("\n\033[1;30m# \033[1;31mIklan Sudah Habis Coba Lagi Besok\n")
-            client.send_message(entity=channel_entity, message="💰 Balance")
+            client.send_message(entity=channel_entity, message="🖥 Visit sites")
             sleep(5)
             posts = client(
                 GetHistoryRequest(
@@ -164,7 +164,7 @@ try:
             )
             message = posts.messages[0].message
             print(message)
-            sys.exit()
+            sys.python3 main.py +6283815525962()
         else:
             try:
                 url = posts.messages[0].reply_markup.rows[0].buttons[0].url
