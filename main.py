@@ -164,6 +164,7 @@ try:
             )
             message = posts.messages[0].message
             print(message)
+            sleep(10)
             ()
         else:
             try:
